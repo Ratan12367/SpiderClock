@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spider Clock</string>
+    <string name="wallpaper_title">Spider Clock</string>
+    <string name="wallpaper_description">Animated spider web clock showing the current time</string>
+    <string name="main_info">Spider Clock is a live wallpaper. Tap the button to preview it and set it as your wallpaper.</string>
+    <string name="main_button">Set Live Wallpaper</string>
+    <string name="main_error">Could not open the wallpaper picker. Open Settings, then Wallpaper, and choose Spider Clock.</string>
+</resources>
