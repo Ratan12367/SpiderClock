@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"><SeekBarPreference app:key="spider_scale" app:defaultValue="100" app:min="50" app:max="150" app:showSeekBarValue="true" app:title="Spider Size"/><SwitchPreferenceCompat app:key="show_seconds" app:defaultValue="true" app:title="Show Second Hand"/><SwitchPreferenceCompat app:key="enable_glow" app:defaultValue="true" app:title="Glow"/><SeekBarPreference app:key="gear_speed" app:defaultValue="10" app:min="1" app:max="30" app:showSeekBarValue="true" app:title="Animation Speed"/></PreferenceScreen>
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SeekBarPreference
+        app:defaultValue="100"
+        app:key="spider_scale"
+        app:max="150"
+        app:showSeekBarValue="true"
+        app:title="@string/title_spider_scale" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="show_seconds"
+        app:title="@string/title_show_seconds" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="enable_glow"
+        app:title="@string/title_enable_glow" />
+
+    <SeekBarPreference
+        app:defaultValue="10"
+        app:key="gear_speed"
+        app:max="30"
+        app:showSeekBarValue="true"
+        app:title="@string/title_gear_speed" />
+
+</PreferenceScreen>
